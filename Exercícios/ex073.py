@@ -1,0 +1,10 @@
+tabela = ('Palmeiras','Internacional','Fluminense','Corinthians','Flamengo','Atlético - PR','Atlético - MG','Fortaleza','São Paulo','América - MG','Botafogo','Santos','Goias','RB - Bragantino','Coritiba','Cuiabá','Ceará','Atlético - GO','Avaí','Juventude')
+
+print("\033[1;35m=+=" * 20)
+print(f'\033[1;32mOs 5 primeiros colocados: {tabela[0:4]}')
+print(f'\033[1;31mOs últimos 4 colocados: {tabela[-4:]}')
+print("\033[1;35m=+=" * 20)
+print(f'\033[1;30mBotafogo está na posição: {tabela.index("Botafogo") + 1}')
+print("\033[1;35m=+=" * 20)
+print(f'\033[1;34mA tabela em ordem alfabética: {sorted(tabela)}')
+print("\033[1;35m=+=" * 20)
