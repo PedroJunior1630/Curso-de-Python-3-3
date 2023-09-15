@@ -8,6 +8,7 @@ while True:
     else:
         print(f'\033[1;32mO número {num} escrito por extenso é {nums[num]}')
         opcao = str(input('Deseja continuar? [S/N] ')).upper()
-        
+        if opcao != "N" and opcao != "S":
+            print("\033[1;31mTENTE NOVAMENTE!")
         if opcao[0] == 'N':
             break
