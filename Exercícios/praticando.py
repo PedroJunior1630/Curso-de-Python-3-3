@@ -1,8 +1,8 @@
-"""import os
+import os
 def limpaTela():
     os.system('cls')
 
-"""limpaTela()
+limpaTela()
 numeros = ('Zero', 'Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez','Onze','Doze','Treze','Quatorze','Quinze','Dezesseis','Dezessete','Dezoito','Dezenove','Vinte')
 RED = '\033[1;91m'
 RESET = '\033[0m'
@@ -19,4 +19,4 @@ while True:
         if op == 'N':
             break
         else:
-            continue"""
+            continue
