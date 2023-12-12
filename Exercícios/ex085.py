@@ -1,13 +1,13 @@
-num = list()
+numeros = [[], []]
 
-for numeros in range(0,7):
-    num.append(int(input('Digite um número: ')))
-num.sort()
-print(f"Números pares: ",end = " ")
-for par in num:
-    if par % 2 == 0:
-        print(par,end =" ")
-print(f"\nNúmeros impares: ",end = " ")
-for imp in num:
-    if imp % 2 == 1:
-        print(imp,end = " ")
+for n in range(1,8):
+    num = int(input(f'Digite o {n}° número: '))
+    if num % 2 == 0:
+        numeros[0].append(num)
+    else:
+        numeros[1].append(num)
+numeros[0].sort()
+numeros[1].sort()
+
+print(f"Números pares: {numeros[0]}")
+print(f"\nNúmeros impares: {numeros[1]} ")
