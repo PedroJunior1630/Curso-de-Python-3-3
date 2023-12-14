@@ -27,4 +27,4 @@ while True:
     if al == 999:
         break
     else:
-        print(f'Aluno {boletim[al][0]} teve a média {media[al]}')
+        print(f'Aluno {boletim[al][0]} teve as notas [{boletim[al][1]}] [{boletim[al][2]}]')
