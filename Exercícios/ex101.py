@@ -1,11 +1,10 @@
-from datetime import date
-ano =  date.today().year
-
 def linha():
     print("=+=" * 10)
 
 
 def vota(nasc):
+    from datetime import date
+    ano =  date.today().year
     idade = ano - nasc
     linha()
     print(f'Com {idade} anos de idade: ',end = "")
@@ -21,5 +20,5 @@ linha()
 print("VOTAÇÃO")
 linha()
 nascimento = int(input('Ano de nascimento: '))
-voto = vota(nascimento)
-print(voto)
+print(vota(nascimento))
+linha()
