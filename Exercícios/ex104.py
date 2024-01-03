@@ -5,7 +5,7 @@ def leiaInt(msgInput):
             break
         else:
             print(f"\033[1;31mERRO o valor digitado não é um número!")
-    return num
+    return int(num)
 
 n = leiaInt("Digite um número: ")
 print(f"Você digitou o número {n}")
