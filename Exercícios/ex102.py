@@ -7,18 +7,17 @@ def fatorial(num, mostrar = False):
     return -> retorna o resultado
     """
     fact = 1
-    if mostrar == True:
-        for c in range(num,0,-1):
+
+    print("=+=" * 10)
+    for c in range(num,0,-1):
+        if mostrar == True:
             print(f'{c}',end = " ")
-            fact *= c
             if c == 1:
                 print("=",end=" ")
             else:
                 print("x",end=" ")
-        return fact
-    else:
-        return math.factorial(num)
-    
+        fact *= c
+    return fact
 
 print(fatorial(5,True))
 help(fatorial)
