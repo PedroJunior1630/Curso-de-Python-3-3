@@ -18,5 +18,7 @@ def fatorial(num, mostrar = False):
         return fact
     else:
         return math.factorial(num)
+    
+
 print(fatorial(5,True))
 help(fatorial)
