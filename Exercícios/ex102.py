@@ -1,7 +1,13 @@
 import math
-def fatorial(num, cal = False):
+def fatorial(num, mostrar = False):
+    """
+    fatorial -> Metódo para calcular fatorial
+    num -> Número da fatorial que deseja ser calculado
+    mostrar -> True para mostrar a formúla e False apenas para o resultado.
+    return -> retorna o resultado
+    """
     fact = 1
-    if cal == True:
+    if mostrar == True:
         for c in range(num,0,-1):
             print(f'{c}',end = " ")
             fact *= c
@@ -12,5 +18,5 @@ def fatorial(num, cal = False):
         return fact
     else:
         return math.factorial(num)
-res = fatorial(6, True)
-print(res)
+print(fatorial(5,True))
+help(fatorial)
