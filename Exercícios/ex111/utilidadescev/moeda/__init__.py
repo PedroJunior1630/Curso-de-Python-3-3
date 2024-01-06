@@ -35,6 +35,6 @@ def resumo(n,aum,dim):
     print(f"Preço analisado: {moeda(n):^20}")
     print(f"Dobro do preço: {dobro(n,True):^20}")
     print(f"Metade do preço: {metade(n,True):^20}")
-    print(f"{aum}% de auemnto: {aumento(n,aum,True):^20}")
+    print(f"{aum}% de aumento: {aumento(n,aum,True):^20}")
     print(f"{dim}% de redução: {diminui(n,dim,True):^20}")
     print("=+=" * 10)
