@@ -1,3 +1,4 @@
 from ex115.lib.interface import *
 
-menu()
+cabecalho("MENU PRINCIPAL")
+menu(["Visualizar a lista de Pessoas","Cadastrar Pessoas","Sair do Programa"])
