@@ -1,5 +1,9 @@
 from ex115.lib.interface import *
+from ex115.lib.arquivo import *
 from time import sleep
+arquivo = "cadastro.txt"
+if arquivoExiste(arquivo) == False:
+    arquivoCriar(arquivo)
 while True:
     menu(["Visualizar a lista de Pessoas","Cadastrar Pessoas","Sair do Programa"])
     opcao = leiaInt("\033[32mQual opção deseja?\033[m")
