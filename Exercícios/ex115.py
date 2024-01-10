@@ -9,6 +9,7 @@ while True:
     opcao = leiaInt("\033[32mQual opção deseja?\033[m")
     if opcao == 1:
         cabecalho("OPÇÃO 1")
+        exibirArquivo(arquivo)
     elif opcao == 2:
         cabecalho("OPÇÃO 2")
     elif opcao == 3:
