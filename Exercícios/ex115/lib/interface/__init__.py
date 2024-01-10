@@ -16,7 +16,7 @@ def linha(tam=15):
 
 def cabecalho(texto):
     linha()
-    print(texto.center(90))
+    print(texto.center(45))
     linha()
 
 
