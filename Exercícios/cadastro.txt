@@ -1,4 +1,6 @@
-Pedro;22
+Pedro;15
+Cristiano Ronaldo;38
+Lionel Messi;36
 Neymar;31
-CR7;39
-Messi;37
+Antonie Griezman;32
+Dyabala;30
